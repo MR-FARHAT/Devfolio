@@ -58,7 +58,7 @@ html {
 
 .navbar-nav .nav-item .active {
   position: relative;
-  transition: 0.5s;
+
 }
 
 .navbar-nav .nav-item .active::after {
@@ -68,7 +68,7 @@ html {
   width: 90%;
   left: 5px;
   bottom: -5px;
-  transition: 0.5s;
+
 }
 
 .scroll-to-top {
