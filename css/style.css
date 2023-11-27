@@ -14,6 +14,10 @@ body {
   background-position: center center;
 }
 
+body {
+  scroll-padding-top: -50px;
+}
+
 .overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.534);
