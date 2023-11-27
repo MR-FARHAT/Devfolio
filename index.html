@@ -19,8 +19,8 @@
     rel="stylesheet" />
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-2">
+<body data-bs-spy="scroll" data-bs-target="#nav1">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-2" id="nav1">
     <div class="container-md w-100">
       <a class="navbar-brand fw-bolder fs-3 w-50 text-light" href="#">DevFolio</a>
       <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
@@ -34,16 +34,16 @@
             <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">ABOUT</a>
+            <a class="nav-link text-light" href="#about1">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">SERVICES</a>
+            <a class="nav-link text-light" href="#services1">SERVICES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">WORK</a>
+            <a class="nav-link text-light" href="#portfolio1">WORK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">BLOG</a>
+            <a class="nav-link text-light" href="#blog">BLOG</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -66,10 +66,10 @@
       </div>
     </div>
   </nav>
+  <button id="to-top" class="scroll-to-top  ">
+    <div class="d-flex justify-content-center align-items-center"><i class="fa-solid fa-arrow-up fs-5 "></i></div>
+  </button>
   <div class="land">
-    <button id="to-top" class="scroll-to-top  ">
-      <div class="d-flex justify-content-center align-items-center"><i class="fa-solid fa-arrow-up fs-5 "></i></div>
-    </button>
     <div class="land-cont container-fluid vh-100 bg-info gx-0 overflow-hidden">
       <div class="hero" style="
             background-image: url(./images/hero-bg.jpg);
@@ -85,7 +85,7 @@
       </div>
     </div>
   </div>
-  <div class="about py-5">
+  <div id="about1" class="about py-5">
     <div class="container-sm d-flex flex-md-row flex-sm-column bg-white shadow-lg drop">
       <div class="row">
         <div class="f-half col-lg-6 col-sm-12 p-5">
@@ -160,7 +160,7 @@
       </div>
     </div>
   </div>
-  <div class="services">
+  <div id="services1" class="services">
     <div class="container-sm p-5">
       <div class="row">
         <div class="services-title col-sm-12 text-center pb-2 position-relative ">
@@ -313,7 +313,7 @@
       </div>
     </div>
   </div>
-  <div class="portfolio">
+  <div id="portfolio1" class="portfolio">
     <div class="container">
       <div class="portfolio-head text-center mb-5 position-relative ">
         <h2 class="fs-1 fw-bolder text-black ">PORTFOLIO</h2>
