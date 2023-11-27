@@ -14,8 +14,8 @@ body {
   background-position: center center;
 }
 
-body {
-  scroll-padding-top: -64px;
+html {
+  scroll-padding-top: 64px;
 }
 
 .overlay {
