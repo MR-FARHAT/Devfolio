@@ -56,6 +56,11 @@ html {
   font-size: 3rem;
 }
 
+.active {
+  position: relative;
+  transition: 0.5s;
+}
+
 .active::after {
   content: '';
   border: 1px solid var(--color);
