@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  scroll-padding-top: 64px;
+  scroll-padding-top: 60px;
 }
 
 .overlay {
@@ -68,6 +68,7 @@ html {
   width: 90%;
   left: 5px;
   bottom: -5px;
+  visibility: visible;
 
 }
 
@@ -260,18 +261,8 @@ html {
   z-index: -1;
 }
 
-/* #contact::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #0062d371;
-  width: 100%;
-  height: 100%;
-  
-} */
 
-#btn .butn {
+#btn .btn1 {
   border-radius: 50vh;
   color: var(--color);
   background-color: var(--scolor);
@@ -559,5 +550,3 @@ html {
     content: '|';
   }
 }
-
-*/
